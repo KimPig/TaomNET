@@ -1,0 +1,18 @@
+<?php
+
+//Default password is "root" with md5 hash
+//No "/" at the end of outputFolder or logfolder
+
+return array(
+	"bin" => "./config/yt-dlp",
+	"security" => false,
+	"password" => "63a9f0ea7bb98050796b649e85481845",
+	"outputFolder" => "downloads",
+	"extracter" => "ffmpeg",
+	"log" => true,
+	"outfilename" => "%(title)s-%(id)s.%(ext)s",
+	"logFolder" => "logs",
+	"max_dl" => 3,
+	"session_lifetime" => 86400);
+
+?>
